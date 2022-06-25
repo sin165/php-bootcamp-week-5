@@ -59,3 +59,15 @@ p {
 .button1 {
     @apply cursor-pointer w-[123px] h-[48px] bg-vio rounded-[5px] text-white font-bold hover:bg-lightvio;
 }
+
+@media (max-width: 767px) {
+    label,
+    #filter-by-location,
+    #full-time {
+        display: none;
+    }
+
+    #filter-by-title {
+        border: none;
+    }
+}
